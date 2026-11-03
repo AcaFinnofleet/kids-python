@@ -1,63 +1,62 @@
 # kids-python
 
-Esercizi di Python per bambini dai 10 ai 12 anni con esperienza di Scratch.
-La sessione dura circa un'ora.
-Le istruzioni e i messaggi sono in tedesco con ortografia svizzera.
+Python-Aufgaben für Kinder von 10 bis 12 Jahren mit Scratch-Erfahrung.
+Die Lektion dauert etwa eine Stunde.
 
-## Struttura
+## Struktur
 
-| Percorso | Contenuto |
+| Pfad | Inhalt |
 |---|---|
-| `aufgaben/` | File per i bambini, da completare |
-| `aufgaben/SPICKZETTEL.txt` | Promemoria con le corrispondenze Scratch → Python e gli errori tipici |
-| `loesungen/` | Soluzioni per l'adulto che guida la sessione |
+| `aufgaben/` | Dateien für die Kinder, zum Ergänzen |
+| `aufgaben/SPICKZETTEL.txt` | Übersicht Scratch → Python und typische Fehler |
+| `loesungen/` | Lösungen für die Leitung |
 
-## Esercizi
+## Aufgaben
 
-| File | Concetto | Equivalente Scratch |
+| Datei | Thema | Entsprechung in Scratch |
 |---|---|---|
 | `01_hallo.py` | `print` | «sage» |
-| `02_rechnen.py` | Operatori `+ - * /` | Blocchi operatore |
-| `03_variablen.py` | Variabili | «setze ... auf» |
+| `02_rechnen.py` | Operatoren `+ - * /` | Operator-Blöcke |
+| `03_variablen.py` | Variablen | «setze ... auf» |
 | `04_fragen.py` | `input()`, `int()` | «frage ... und warte» |
 | `05_entscheiden.py` | `if` / `else` | «falls ... dann ... sonst» |
-| `06_quiz.py` | Quiz con punteggio, esercizio finale | Combinazione dei blocchi precedenti |
-| `07_bonus_zahlenraten.py` | `random`, `while`; bonus per i gruppi veloci | «Zufallszahl», «wiederhole bis» |
-| `08_fehlersuche.py` | Debugging: correggere sei errori voluti | — |
+| `06_quiz.py` | Quiz mit Punkten, Schlussaufgabe | Kombination der vorherigen Blöcke |
+| `07_bonus_zahlenraten.py` | `random`, `while`; Bonus für schnelle Gruppen | «Zufallszahl», «wiederhole bis» |
+| `08_fehlersuche.py` | Debugging: sechs absichtliche Fehler korrigieren | — |
 
-## Preparazione dei PC
+## Vorbereitung der PCs
 
-1. Installa Python:
+1. Installiere Python:
    ```
    winget install Python.Python.3.13
    ```
-2. Apri un nuovo terminale e verifica l'installazione con `python --version`.
-3. Copia la cartella `aufgaben/` sul desktop di ogni PC.
-   Non copiare la cartella `loesungen/`.
-4. Imposta IDLE come programma predefinito per i file `.py`.
-   In alternativa, apri ogni file con un clic destro e scegli «Edit with IDLE».
-5. Esegui `loesungen/06_quiz.py` con F5 come prova.
+2. Öffne ein neues Terminal und prüfe die Installation mit `python --version`.
+3. Kopiere den Ordner `aufgaben/` auf den Desktop jedes PCs.
+   Kopiere den Ordner `loesungen/` nicht.
+4. Lege IDLE als Standardprogramm für `.py`-Dateien fest.
+   Alternativ öffnest du jede Datei mit Rechtsklick und «Edit with IDLE».
+5. Starte `loesungen/06_quiz.py` mit F5 als Test.
 
-## Scaletta
+## Ablauf
 
-| Minuti | Attività |
+| Minuten | Aktivität |
 |---|---|
-| 0–10 | Introduzione: cosa fa uno sviluppatore, confronto Scratch → Python con il `SPICKZETTEL` |
-| 10–50 | Esercizi in gruppo, a ritmo libero, da `01` a `06` |
-| 50–60 | Ogni gruppo fa giocare il proprio quiz a un altro gruppo |
+| 0–10 | Einführung: Was macht ein Entwickler? Vergleich Scratch → Python mit dem `SPICKZETTEL` |
+| 10–50 | Aufgaben in Gruppen, im eigenen Tempo, von `01` bis `06` |
+| 50–60 | Jede Gruppe lässt eine andere Gruppe ihr Quiz spielen |
 
-## Note per la guida
+## Hinweise für die Leitung
 
-- Ogni gruppo deve arrivare almeno a `06_quiz.py`, perché la presentazione finale usa quel file.
-- Dove il tempo stringe, salta `02_rechnen.py` e `03_variablen.py`.
-  `04_fragen.py` ripresenta le variabili.
-- `07_bonus_zahlenraten.py` serve ai gruppi che finiscono prima degli altri.
-- `08_fehlersuche.py` contiene sei errori.
-  Python segnala prima i quattro errori di sintassi, perché analizza tutto il file prima dell'esecuzione.
-  Poi segnala `NameError` e `TypeError`, quando esegue le righe colpite.
-  L'ordine delle segnalazioni è descritto in `loesungen/08_fehlersuche.py`.
-- Usa `08_fehlersuche.py` come alternativa a `07_bonus_zahlenraten.py`, oppure in plenaria dopo l'introduzione per mostrare i messaggi di errore.
-- `int(input(...))` produce un `ValueError` quando l'utente inserisce testo al posto di un numero.
-  Mostra l'errore ai bambini: leggere una traceback fa parte del lavoro dello sviluppatore.
-- `06_quiz.py` confronta le risposte di testo con `.lower()`.
-  Per questo la risposta attesa nel codice va scritta in minuscolo.
+- Jede Gruppe soll mindestens `06_quiz.py` erreichen, weil die Schlusspräsentation diese Datei verwendet.
+- Wird die Zeit knapp, überspringe `02_rechnen.py` und `03_variablen.py`.
+  `04_fragen.py` führt Variablen nochmals ein.
+- `07_bonus_zahlenraten.py` ist für Gruppen, die früher fertig sind.
+- `08_fehlersuche.py` enthält sechs Fehler.
+  Python meldet zuerst die vier Syntaxfehler, weil es die ganze Datei vor dem Ausführen liest.
+  Danach meldet Python `NameError` und `TypeError`, wenn es die betroffenen Zeilen ausführt.
+  Die Reihenfolge der Meldungen steht in `loesungen/08_fehlersuche.py`.
+- Setze `08_fehlersuche.py` als Alternative zu `07_bonus_zahlenraten.py` ein, oder gemeinsam nach der Einführung, um die Fehlermeldungen zu zeigen.
+- `int(input(...))` erzeugt einen `ValueError`, wenn jemand Text statt einer Zahl eingibt.
+  Zeige den Fehler den Kindern: Eine Fehlermeldung lesen gehört zur Arbeit eines Entwicklers.
+- `06_quiz.py` vergleicht Textantworten mit `.lower()`.
+  Deshalb muss die erwartete Antwort im Code kleingeschrieben sein.
