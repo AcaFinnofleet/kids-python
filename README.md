@@ -23,6 +23,7 @@ Le istruzioni e i messaggi sono in tedesco con ortografia svizzera.
 | `05_entscheiden.py` | `if` / `else` | «falls ... dann ... sonst» |
 | `06_quiz.py` | Quiz con punteggio, esercizio finale | Combinazione dei blocchi precedenti |
 | `07_bonus_zahlenraten.py` | `random`, `while`; bonus per i gruppi veloci | «Zufallszahl», «wiederhole bis» |
+| `08_fehlersuche.py` | Debugging: correggere sei errori voluti | — |
 
 ## Preparazione dei PC
 
@@ -51,6 +52,11 @@ Le istruzioni e i messaggi sono in tedesco con ortografia svizzera.
 - Dove il tempo stringe, salta `02_rechnen.py` e `03_variablen.py`.
   `04_fragen.py` ripresenta le variabili.
 - `07_bonus_zahlenraten.py` serve ai gruppi che finiscono prima degli altri.
+- `08_fehlersuche.py` contiene sei errori.
+  Python segnala prima i quattro errori di sintassi, perché analizza tutto il file prima dell'esecuzione.
+  Poi segnala `NameError` e `TypeError`, quando esegue le righe colpite.
+  L'ordine delle segnalazioni è descritto in `loesungen/08_fehlersuche.py`.
+- Usa `08_fehlersuche.py` come alternativa a `07_bonus_zahlenraten.py`, oppure in plenaria dopo l'introduzione per mostrare i messaggi di errore.
 - `int(input(...))` produce un `ValueError` quando l'utente inserisce testo al posto di un numero.
   Mostra l'errore ai bambini: leggere una traceback fa parte del lavoro dello sviluppatore.
 - `06_quiz.py` confronta le risposte di testo con `.lower()`.
