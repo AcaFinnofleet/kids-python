@@ -2,7 +2,7 @@
   SPICKZETTEL: Von Scratch zu Python
 ==================================================
 
-Programm starten:   Taste F5
+Programm starten:   Knopf ▶ oben rechts
 Programm stoppen:   ins Terminal klicken, dann Tasten Ctrl+C
 Das Resultat erscheint unten im Terminal.
 

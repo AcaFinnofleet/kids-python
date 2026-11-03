@@ -37,32 +37,18 @@ Die Lektion dauert etwa eine Stunde.
    ```
 4. Kopiere den Ordner `aufgaben/` auf den Desktop jedes PCs.
    Kopiere den Ordner `loesungen/` nicht.
-5. Lege in VS Code die Taste F5 auf «Run Python File» fest:
-   Ctrl+Shift+P → «Preferences: Open Keyboard Shortcuts (JSON)», dann einfügen:
-   ```json
-   [
-     {
-       "key": "f5",
-       "command": "python.execInTerminal",
-       "when": "editorLangId == python"
-     }
-   ]
-   ```
-6. Öffne in VS Code den Ordner `aufgaben/` mit «File → Open Folder…».
-7. Öffne `01_hallo.py` und starte es mit F5 als Test.
+5. Öffne in VS Code den Ordner `aufgaben/` mit «File → Open Folder…».
+6. Öffne `01_hallo.py` und starte es mit dem Knopf ▶ oben rechts als Test.
 
 ## Programme starten in VS Code
 
-- F5 führt die Datei, die im Editor offen ist, mit `python.execInTerminal` aus.
-  Dieser Befehl startet Python direkt im Terminal, ohne Debugger.
-- Ohne den Eintrag aus Schritt 5 startet F5 den Debugger von VS Code.
-  Der Projektordner enthält keine Debug-Konfiguration, deshalb fragt VS Code dann nach einem Debugger.
+- Der Knopf ▶ «Run Python File» oben rechts führt die Datei aus, die im Editor offen ist.
+  Die Python-Erweiterung startet Python dafür direkt im Terminal, ohne Debugger.
 - Das Programm läuft im Terminal unten, dort funktioniert auch `input()`.
 - Ctrl+C im Terminal stoppt ein laufendes Programm.
-- `aufgaben/.vscode/settings.json` setzt die Eingabeaufforderung (Command Prompt) als Terminal.
-  Die Eingabeaufforderung startet schneller als PowerShell und lädt kein PowerShell-Profil.
-- VS Code liest `.vscode/settings.json` nur aus dem geöffneten Ordner.
-  Das Projekt enthält deshalb eine zweite Kopie in `.vscode/settings.json` für den Fall, dass das ganze Projekt geöffnet wird.
+- F5 startet den Debugger von VS Code.
+  Der Projektordner enthält keine Debug-Konfiguration, deshalb fragt VS Code dann nach einem Debugger.
+  Weise die Kinder auf den Knopf ▶ hin.
 
 ## Ablauf
 

@@ -15,7 +15,7 @@
 #   print("3 + 4")   zeigt  3 + 4
 #
 # Deine Aufgaben:
-#   1. Starte das Programm (F5) und schau dir die Resultate an.
+#   1. Starte das Programm (Knopf ▶) und schau dir die Resultate an.
 #   2. Rechne 125 + 375.
 #   3. Rechne 1000 - 1.
 #   4. Rechne 12 * 12.

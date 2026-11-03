@@ -13,7 +13,7 @@
 #   alter = int(input("Wie alt bist du? "))
 #
 # Deine Aufgaben:
-#   1. Starte das Programm (F5) und beantworte die Fragen.
+#   1. Starte das Programm (Knopf ▶) und beantworte die Fragen.
 #   2. Frage nach dem Lieblingsessen und gib eine lustige Antwort aus.
 #      Beispiel:  Pizza? Mmmh, das esse ich auch gern!
 #   3. Frage nach zwei Zahlen und zeige ihre Summe an.
