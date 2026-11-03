@@ -33,9 +33,28 @@ Die Lektion dauert etwa eine Stunde.
 2. Öffne ein neues Terminal und prüfe die Installation mit `python --version`.
 3. Kopiere den Ordner `aufgaben/` auf den Desktop jedes PCs.
    Kopiere den Ordner `loesungen/` nicht.
-4. Lege IDLE als Standardprogramm für `.py`-Dateien fest.
+4. Richte einen Editor ein, IDLE oder VS Code.
+5. Starte `loesungen/06_quiz.py` als Test.
+
+### Variante A: IDLE
+
+IDLE ist in der Python-Installation enthalten.
+
+1. Lege IDLE als Standardprogramm für `.py`-Dateien fest.
    Alternativ öffnest du jede Datei mit Rechtsklick und «Edit with IDLE».
-5. Starte `loesungen/06_quiz.py` mit F5 als Test.
+2. Starte ein Programm mit F5.
+
+### Variante B: VS Code
+
+1. Installiere die Python-Erweiterung von Microsoft:
+   ```
+   code --install-extension ms-python.python
+   ```
+2. Öffne den Ordner `aufgaben/` mit «File → Open Folder…».
+3. Starte ein Programm mit Ctrl+F5 oder mit dem Knopf ▶ oben rechts.
+   Das Programm läuft im Terminal unten, dort funktioniert auch `input()`.
+4. F5 allein startet in VS Code den Debugger und fragt nach einer Konfiguration.
+   Weise die Kinder auf Ctrl+F5 hin.
 
 ## Ablauf
 

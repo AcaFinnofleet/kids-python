@@ -14,7 +14,7 @@
 #                          Schreibe deshalb die richtige Antwort klein!
 #
 # Deine Aufgaben:
-#   1. Starte das Programm (F5) und spiele die erste Frage.
+#   1. Starte das Programm (IDLE: F5, VS Code: Ctrl+F5) und spiele die erste Frage.
 #   2. Kopiere den Block von Frage 1 und mache daraus Frage 2, 3 und 4.
 #      Ändere jeweils die Frage, die Antwort und die Nachrichten.
 #   3. Passe die Zahl in der letzten Zeile an, wenn du mehr Fragen hast.

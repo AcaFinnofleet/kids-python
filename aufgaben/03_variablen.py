@@ -15,7 +15,7 @@
 #   print(name, "ist", alter, "Jahre alt.")
 #
 # Deine Aufgaben:
-#   1. Starte das Programm (F5).
+#   1. Starte das Programm (IDLE: F5, VS Code: Ctrl+F5).
 #   2. Setze deinen eigenen Namen und dein eigenes Alter ein.
 #   3. Wie alt bist du in 10 Jahren? Ergänze die Zeile unten.
 #   4. In welchem Jahr bist du geboren? Ergänze die Zeile unten.

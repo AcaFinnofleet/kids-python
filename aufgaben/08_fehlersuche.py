@@ -6,8 +6,10 @@
 # Findet und korrigiert alle Fehler.
 #
 # So geht ihr vor:
-#   1. Starte das Programm (F5).
+#   1. Starte das Programm (IDLE: F5, VS Code: Ctrl+F5).
 #   2. Python zeigt eine Fehlermeldung und markiert die Zeile mit dem Fehler.
+#      In VS Code steht die Meldung unten im Terminal, mit der Zeilennummer.
+#      VS Code unterstreicht manche Fehler schon vor dem Start rot.
 #   3. Korrigiere den Fehler und starte nochmals.
 #   4. Wiederhole, bis Robo «Programm fertig!» sagt.
 #
