@@ -17,7 +17,7 @@
 #     Das ist wie das Innere eines Scratch-Blocks.
 #
 # Deine Aufgaben:
-#   1. Starte das Programm (IDLE: F5, VS Code: Ctrl+F5). Teste eine richtige und eine falsche Antwort.
+#   1. Starte das Programm (F5). Teste eine richtige und eine falsche Antwort.
 #   2. Ändere die Nachrichten bei «Richtig» und «Falsch».
 #   3. Schreibe eine zweite Frage mit if und else.
 #      Beispiel: Was ist 6 * 7?  (Antwort: 42)

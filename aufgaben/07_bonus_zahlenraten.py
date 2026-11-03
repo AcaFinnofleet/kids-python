@@ -15,7 +15,7 @@
 #   !=                             bedeutet «ist nicht gleich»
 #
 # Deine Aufgaben:
-#   1. Starte das Programm (IDLE: F5, VS Code: Ctrl+F5). Es merkt, ob du richtig liegst,
+#   1. Starte das Programm (F5). Es merkt, ob du richtig liegst,
 #      aber es gibt noch keine Tipps!
 #   2. Ergänze an der markierten Stelle zwei Tipps:
 #        falls tipp < geheim:  print("Zu klein!")

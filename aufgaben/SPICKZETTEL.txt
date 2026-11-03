@@ -2,11 +2,9 @@
   SPICKZETTEL: Von Scratch zu Python
 ==================================================
 
-Programm starten:
-  in IDLE:     Taste F5
-  in VS Code:  Tasten Ctrl+F5 oder Knopf ▶ oben rechts
-               (Ctrl heisst auf manchen Tastaturen Strg)
-               Achtung: F5 allein startet in VS Code den Debugger.
+Programm starten:   Taste F5
+Programm stoppen:   Tasten Shift+F5 oder Knopf ■ oben
+Das Resultat erscheint unten im Terminal.
 
 Scratch                           Python
 --------------------------------  --------------------------------

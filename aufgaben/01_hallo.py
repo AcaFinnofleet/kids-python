@@ -5,9 +5,8 @@
 # In Scratch:  Block «sage Hallo!»
 # In Python:   print("Hallo!")
 #
-# Programm starten:
-#   in IDLE:     Taste F5
-#   in VS Code:  Tasten Ctrl+F5 oder Knopf ▶ oben rechts
+# Programm starten: Taste F5
+# Das Resultat erscheint unten im Terminal.
 #
 # Wichtig: Text steht immer zwischen "Anführungszeichen".
 #
