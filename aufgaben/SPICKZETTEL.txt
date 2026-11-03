@@ -1,0 +1,37 @@
+==================================================
+  SPICKZETTEL: Von Scratch zu Python
+==================================================
+
+Programm starten in IDLE:  Taste F5
+
+Scratch                           Python
+--------------------------------  --------------------------------
+sage Hallo!                       print("Hallo!")
+frage ... und warte / Antwort     antwort = input("Frage? ")
+setze punkte auf 0                punkte = 0
+ändere punkte um 1                punkte = punkte + 1
+falls ... dann                    if alter > 12:
+sonst                             else:
+wiederhole bis ...                while tipp != geheim:
+Zufallszahl von 1 bis 100         random.randint(1, 100)
+
+Vergleichen:
+  ==   ist gleich
+  !=   ist nicht gleich
+  >    grösser als
+  <    kleiner als
+
+Rechnen:
+  +  plus     -  minus     *  mal     /  geteilt
+
+Typische Fehler:
+  - Anführungszeichen vergessen:   print(Hallo)    ->  print("Hallo")
+  - Doppelpunkt vergessen:         if x == 1       ->  if x == 1:
+  - Einrückung vergessen:          Zeilen unter if/else/while brauchen
+                                   4 Leerzeichen am Anfang.
+  - Nur ein = beim Vergleich:      if x = 1:       ->  if x == 1:
+  - Text statt Zahl:               input() gibt Text zurück.
+                                   Zum Rechnen: int(input("..."))
+
+Fehler sind normal! Auch Profis machen sie jeden Tag.
+Lies die Fehlermeldung: Sie zeigt dir die Zeile mit dem Problem.
