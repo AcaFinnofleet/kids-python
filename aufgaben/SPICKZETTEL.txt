@@ -3,7 +3,7 @@
 ==================================================
 
 Programm starten:   Taste F5
-Programm stoppen:   Tasten Shift+F5 oder Knopf ■ oben
+Programm stoppen:   ins Terminal klicken, dann Tasten Ctrl+C
 Das Resultat erscheint unten im Terminal.
 
 Scratch                           Python

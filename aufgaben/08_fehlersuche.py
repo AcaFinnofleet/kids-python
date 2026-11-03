@@ -9,7 +9,7 @@
 #   1. Starte das Programm (F5).
 #   2. Python zeigt eine Fehlermeldung mit der Nummer der Zeile, in der der Fehler steckt.
 #      VS Code unterstreicht manche Fehler schon vor dem Start rot.
-#   3. Stoppe das Programm (Shift+F5), korrigiere den Fehler und starte nochmals.
+#   3. Korrigiere den Fehler und starte nochmals.
 #   4. Wiederhole, bis Robo «Programm fertig!» sagt.
 #
 # Python zeigt immer nur EINEN Fehler auf einmal.
