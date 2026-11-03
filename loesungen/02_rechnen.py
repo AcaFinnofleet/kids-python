@@ -1,8 +1,10 @@
 # Lösung zu Aufgabe 2: Python als Taschenrechner
 
-print(3 + 4)
-print(10 - 3)
 print("3 + 4")
+print(3 + 4)
+
+print("10 - 4")
+print(10 - 4)
 
 print(125 + 375)
 print(1000 - 1)

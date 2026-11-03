@@ -11,8 +11,8 @@
 #   /   geteilt
 #
 # Achtung: Bei Rechnungen KEINE Anführungszeichen!
-#   print(3 + 4)     zeigt  7
 #   print("3 + 4")   zeigt  3 + 4
+#   print(3 + 4)     zeigt  7
 #
 # Deine Aufgaben:
 #   1. Starte das Programm (Knopf ▶) und schau dir die Resultate an.
@@ -27,9 +27,11 @@
 #
 # ------------------------------------------
 
-print(3 + 4)
-print(10 - 3)
 print("3 + 4")
+print(3 + 4)
+
+print("10 - 4")
+print(10 - 4)
 
 # Schreibe deine Rechnungen hier:
 
