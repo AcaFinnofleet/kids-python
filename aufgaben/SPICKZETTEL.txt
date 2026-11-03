@@ -3,6 +3,9 @@
 ==================================================
 
 Programm starten:   Knopf ▶ oben rechts
+                    oder im Terminal:  py 01_hallo.py  und Enter
+                    Tipp: Tippe  py 01  und drücke die Tab-Taste,
+                    dann ergänzt das Terminal den Dateinamen.
 Programm stoppen:   ins Terminal klicken, dann Tasten Ctrl+C
 Das Resultat erscheint unten im Terminal.
 

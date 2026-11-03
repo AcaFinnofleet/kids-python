@@ -5,7 +5,9 @@
 # In Scratch:  Block «sage Hallo!»
 # In Python:   print("Hallo!")
 #
-# Programm starten: Knopf ▶ oben rechts
+# Programm starten:
+#   mit der Maus:     Knopf ▶ oben rechts
+#   im Terminal:      py 01_hallo.py   und Enter drücken
 # Das Resultat erscheint unten im Terminal.
 #
 # Wichtig: Text steht immer zwischen "Anführungszeichen".

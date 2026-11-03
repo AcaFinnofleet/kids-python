@@ -30,7 +30,7 @@ Die Lektion dauert etwa eine Stunde.
    ```
    winget install Python.Python.3.13
    ```
-2. Öffne ein neues Terminal und prüfe die Installation mit `python --version`.
+2. Öffne ein neues Terminal und prüfe die Installation mit `python --version` und `py --version`.
 3. Installiere die Python-Erweiterung von Microsoft für VS Code:
    ```
    code --install-extension ms-python.python
@@ -44,6 +44,11 @@ Die Lektion dauert etwa eine Stunde.
 
 - Der Knopf ▶ «Run Python File» oben rechts führt die Datei aus, die im Editor offen ist.
   Die Python-Erweiterung startet Python dafür direkt im Terminal, ohne Debugger.
+- Alternativ startet der Befehl `py` ein Programm im Terminal:
+  - Ist der Ordner `aufgaben/` geöffnet: `py 01_hallo.py`
+  - Ist das ganze Projekt geöffnet: `py aufgaben\01_hallo.py`
+  - `py` ist der Python Launcher, die Python-Installation enthält ihn.
+  - Die Tab-Taste ergänzt den Dateinamen, zum Beispiel nach `py 01`.
 - Das Programm läuft im Terminal unten, dort funktioniert auch `input()`.
 - Ctrl+C im Terminal stoppt ein laufendes Programm.
 - F5 startet den Debugger von VS Code.
