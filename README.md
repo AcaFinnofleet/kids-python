@@ -9,6 +9,8 @@ Die Lektion dauert etwa eine Stunde.
 |---|---|
 | `aufgaben/` | Dateien für die Kinder, zum Ergänzen |
 | `aufgaben/SPICKZETTEL.txt` | Übersicht Scratch → Python und typische Fehler |
+| `CHEAT-SHEET.pdf` | Spickzettel zum Ausdrucken, zwei A4-Seiten, beidseitig |
+| `CHEAT-SHEET.md` | Derselbe Spickzettel als Markdown |
 | `loesungen/` | Lösungen für die Leitung |
 
 ## Aufgaben
